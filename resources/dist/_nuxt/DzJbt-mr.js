@@ -1,0 +1,1 @@
+import{c as e,u as t}from"./BOaTy8cU.js";import{n,t as r}from"./DSdCjfjd.js";import{Xt as i}from"#entry";var a=e(e=>{if(n().hosted)return;let a=r(),o=i();if(a.restore(),!a.isAuthenticated)return t({path:`${o.vector.basePath||``}/login`,query:{redirect:e.fullPath}})});export{a as default};
