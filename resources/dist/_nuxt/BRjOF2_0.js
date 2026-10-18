@@ -1,0 +1,1 @@
+import{At as e}from"#entry";function t(){let t=e(`vector.confirm`,()=>null);function n(e){return t.value?.resolve(!1),new Promise(n=>{t.value={...e,resolve:n}})}function r(e){t.value?.resolve(e),t.value=null}return{pending:t,confirm:n,settle:r}}export{t};
