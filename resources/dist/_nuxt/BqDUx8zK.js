@@ -1,0 +1,1 @@
+import{p as e,x as t}from"./Bj2vN0T9.js";import{B as n,Mn as r,jn as i}from"./DVRkMeDb.js";function a(a,o=`div`,s){return e()({name:s??r(i(a.replace(/__/g,`-`))),props:{tag:{type:String,default:o},...t()},setup(e,{slots:t}){return()=>n(e.tag,{class:[a,e.class],style:e.style},t.default?.())}})}export{a as t};
