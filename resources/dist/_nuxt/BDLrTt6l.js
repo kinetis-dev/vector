@@ -1,0 +1,1 @@
+var e=null;function t(t){e=t}function n(t,n={},r){return e?r===void 0?e.global.t(t,n):e.global.t(t,n,r):t}function r(t){let n=e?String(e.global.locale.value):`en`;return n===`de`||n.startsWith(`de-`)?t:t.toLocaleLowerCase(n)}export{r as n,n as r,t};
