@@ -1,0 +1,1 @@
+import{S as e,b as t}from"./Bj2vN0T9.js";import{wn as n}from"./DVRkMeDb.js";var r=[`static`,`relative`,`fixed`,`absolute`,`sticky`],i=e({position:{type:String,validator:e=>r.includes(e)}},`position`);function a(e,r=t()){return{positionClasses:n(()=>e.position?`${r}--${e.position}`:void 0)}}export{a as n,i as t};
