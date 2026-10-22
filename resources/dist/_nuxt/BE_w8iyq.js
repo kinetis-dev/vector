@@ -1,0 +1,1 @@
+function e(e){return/^\/(?![/\\])/.test(e)&&!/[\\\s\p{Cc}]/u.test(e)}export{e as t};
