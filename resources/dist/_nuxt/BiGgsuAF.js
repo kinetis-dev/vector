@@ -1,0 +1,1 @@
+function e(e){return Array.isArray(e.props)?{}:e.props}export{e as t};
